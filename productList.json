@@ -1,0 +1,29 @@
+[
+  {
+    "id": 2,
+    "title": "Adias",
+    "description": "All-Stars",
+    "price": 120,
+    "thumbnail": "./adidas.jpg",
+    "code": "D113",
+    "stock": 14
+  },
+  {
+    "id": 3,
+    "title": "Nike",
+    "description": "Air Jordan retro",
+    "price": 135,
+    "thumbnail": "./nikejordan.jpg",
+    "code": "D114",
+    "stock": 18
+  },
+  {
+    "id": 5,
+    "title": "Converse",
+    "description": "Chuck Taylor",
+    "price": 95,
+    "thumbnail": "./converse.jpg",
+    "code": "D133",
+    "stock": 14
+  }
+]
