@@ -18,7 +18,7 @@ class ProductManager {
           return;
         }
 
-        const newId =  productData[productData.length - 1].id + 1;
+        const newId = productData.length > 0 ? productData[productData.length - 1].id + 1 : 1;
         const newProduct = {
           id: newId,
           title,
