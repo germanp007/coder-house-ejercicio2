@@ -30,7 +30,7 @@ class ProductManager {
         };
         productData.push(newProduct);
         await fs.promises.writeFile(
-          "./productList.json",
+          this.filePath,
           JSON.stringify(productData, null, 2)
         );
         console.log("Product Added");
